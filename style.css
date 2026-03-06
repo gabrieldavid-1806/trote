@@ -1,0 +1,48 @@
+body {
+     /* cor de fundo*/
+    background-color:rgb(25, 129, 189);
+    /definir o flexbox como layout da pagina/
+    display: flex;
+    /* centralizar na horizontal*/
+    justify-content: center;
+    /centralizar na vertical/
+    align-items: center;
+    /definir a altura da página/
+    height:100vh ; 
+ }
+/* o ponto referencia um class*/
+.card {
+    background-color: rgb(26, 26, 158);
+    /espaçamento interno/
+    padding :40px;
+    /cantos arredondados/
+    border-radius: 20px;
+    /alinhamento do texto/
+    text-align: center;
+}
+button {
+    background-color: rgb(211, 141, 141);
+    /cor do texto/
+    color: white;
+    border-radius: 10px;
+    /10px é em cima e embaixo e 20px e na esquerda e na direita/
+    padding: 10px 20px;
+    /* sem borda*/
+    border: none;
+    /* cria um ponteiro de mouse*/
+    cursor: pointer;
+}
+/* quando o usuario passar o mouse sobre o botão*/
+button:hover{
+    background-color: black;
+}
+.imagem{
+    width: 130px;
+    /largura/
+    height: 130px;
+    /* altura da imagem*/
+    border-radius: 70%;
+    /* deixa a imagem circular*/
+    border: 3px solid rgb(112, 112, 170);
+    /* adiciona borda colorida*/
+}

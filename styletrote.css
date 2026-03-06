@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(18, 18, 133);
+    align-items: center;
+    /* alinha os elementos no centro no eixo vertical (flex) */
+    justify-content: center;
+    /*Controla como os itens se distribuem no eixo principal*/
+    display:flex ;
+    /* ativa o flexbox para organizar e alinhar os elementos */
+    min-height:100vh ;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-color: white;
+    padding: 50px;
+    /* espaço interno entre o conteúdo e a borda, dentro de todo o card */
+    height: 75vh;
+    /* vh=%*/
+    border-radius: 20px;
+    /*bordas arredondadas*/
+    text-align: center;
+    /* centraliza o texto dentro do card */
+}
+ul{
+    list-style: none; 
+    /* remove as bolinhas da lista */
+    flex-direction: column; 
+    /* organiza os itens um embaixo do outro */
+    padding: 0; 
+    /* remove o espaçamento interno padrão */
+    margin: 15px 0 25px 0; 
+    /* margem: cima, direita, baixo, esquerda;espaço "externo" das palavras de ul/li */
+    text-align: center; 
+    /* centraliza o texto */
+}
+ul li{
+    font-size: 16px;
+    /*tamanho das letras de li*/
+    padding-bottom: 4px;
+    /*Cria espaço entre o texto e a borda de baixo*/
+    margin: 0px auto 12px auto;
+    /*expaço entre as palavras do li*/
+    border-bottom: 1px solid #ccc;
+    /*tamanho da borda*/
+    width: fit-content;
+    /*largura do tamanho do texto*/
+    align-items: center;
+
+}
+.imagem{
+    width: 140px;
+    /*largura da imagem*/
+    height: 140px;
+    /* altura da imagem*/
+    border-radius: 20px;
+}
+button{
+    cursor: pointer;
+    /*muda o cursor pra mãozinha*/
+    background-color: orangered;
+    padding: 10px 20px;
+    /*espaço interno no botão*/
+    border-radius: 10px; 
+    border: none;
+}
+button :hover{
+    background-color: aqua;
+}
+.titulo{
+    letter-spacing: 1px;   
+    /* espaçamento entre letras */
+    text-align: center;
+    color: rgb(18, 18, 116);
+}
+.subt{
+    font-size: 18px;      
+    /* aumenta ou diminui o tamanho da letra */
+    font-weight: bold;     
+    /* deixa o texto em negrito */
+    margin-top: 20px;      
+    /* espaço acima do texto (afasta do que vem antes) */
+    margin-bottom: 10px;   
+    /* espaço abaixo do texto (afasta da lista) */
+}
+.ult{
+    font-size: small;
+    color: #d1c1c1;
+}
+/* body- margin e padding=0
+font-family: segoe ui, tahoma, geneva,verdana
+display-flex
+justify-content-horizontal(center)
+align-items:center(ele tem que sempre vir com o height
+min height- 100vh
+box-shadow: sombra da caixa
+display-flex: ocupou os 400px do max weight
+felx-direction: column( p empilhar um embaixo do outro
+gap- edspaço entre header,sectioln e footer: tudo na div isso;
+header h1´- muda somente o h1 dentro da header
+margin- 20px auto( encima e embaixo; auto centraliza)-ul
+dentro do button- trasition>0.3- qnd passar o mouse encima do botao, o hover vai muar o background
+*/
